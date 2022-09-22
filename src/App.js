@@ -1,19 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Person from './componants/Person/Person';
-import Header from './componants/Header/Header';
-import News from './componants/News/News';
-import Bountry from './componants/Country/Bountry';
+import Countries from './componants/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
       {/* <LoadCountries></LoadCountries> */}
-      <Header></Header>
-      <Person></Person>
-      <News></News>
-      <Bountry></Bountry>
+      <Countries></Countries>
+
 
     </div>
   );
