@@ -22,10 +22,11 @@ const Countries = () => {
             <h1>Hello from countries.</h1>
             {
                 countries.map(country => <Country
-                    name={country.name.common}
-                    population={country.population}
-                    area={country.area}
-                    region={country.region}
+                    country={country}
+                // name={country.name.common}
+
+
+
                 ></Country>)
             }
         </div>
