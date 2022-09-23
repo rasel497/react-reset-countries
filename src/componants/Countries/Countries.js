@@ -20,8 +20,8 @@ const Countries = () => {
     // 06- retun dynamically set kore dewa
     // 07- dynamic data display dekhanor jonno App.js file componant er nam set kora
     return (
-        <div>
-            <h1>Hello from countries: {countries.length}</h1>
+        <div className='container'>
+            <h2>Hello from countries: {countries.length}</h2>
             <div className='countries-container'>
                 {
                     countries.map(country => <Country

@@ -2,12 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Countries from './componants/Countries/Countries';
+import Header from './componants/Header/Header';
+import Footer from './componants/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       {/* <LoadCountries></LoadCountries> */}
+      <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
 
 
     </div>
@@ -27,7 +31,7 @@ function LoadCountries() {
   // main
   // UI te show korer jonno tag er vitior dynamically set kore lgbe
   return (
-    <div className="">
+    <div>
       <h1>Visiting Every Country of the world!!</h1>
       <h3>Avilable Country: {countries.length}</h3>
       {/* now start set dynamically proper way using map */}
